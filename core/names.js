@@ -179,9 +179,11 @@ const Names = class {
     if (normalizedName in typeDb) {
       return prefix + typeDb[normalizedName];
     }
-    const safeName = this.getDistinctName(name, type);
-    typeDb[normalizedName] = safeName.substr(prefix.length);
-    return safeName;
+    // const safeName = this.getDistinctName(name, type);
+    // typeDb[normalizedName] = safeName.substr(prefix.length);
+    // return safeName;
+    typeDb[normalizedName] = name.substr(prefix.length);
+    return name;
   }
 
   /**

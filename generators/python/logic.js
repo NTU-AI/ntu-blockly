@@ -34,13 +34,13 @@ Python['run'] = function(block) {
 Python['rangesensor_getrange_block'] = function(block){
   var dropdown_unit = block.getFieldValue('unit');
   var code = `getRange('${dropdown_unit}')` 
-  return [`{"code": "${code}","type": "Number"}`, Python.ORDER_NONE];
+  return [code, Python.ORDER_NONE];
 }
 
 Python['convbelt_setstate_block'] = function(block){
   var value_state = block.getFieldValue('state')
   var code = `setConveyorState('${value_state}')` 
-  return [`{"code": "${code}","type": ""}`, Python.ORDER_NONE];
+  return [code, Python.ORDER_NONE];
 }
 
 Python['controls_if'] = function(block) {
