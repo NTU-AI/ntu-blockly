@@ -15893,7 +15893,7 @@ declare module "core/workspace_svg" {
          * @type {IToolbox}
          * @private
          */
-        private toolbox_;
+        public toolbox_:any;
         /**
          * The current gesture in progress on this workspace, if any.
          * @type {TouchGesture}
