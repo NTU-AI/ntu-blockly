@@ -97,7 +97,7 @@
     "rimraf": "^3.0.2",
     "selenium-standalone": "^8.0.3",
     "through2": "^4.0.2",
-    "typescript": "^4.3.2",
+    "typescript": "^5.2.2",
     "webdriverio": "^7.0.3",
     "yargs": "^17.2.1"
   },
