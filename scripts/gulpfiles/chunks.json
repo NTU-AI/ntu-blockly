@@ -1,6 +1,6 @@
 {
   "chunk": [
-    "blockly:260",
+    "blockly:261",
     "blocks:10:blockly",
     "all:11:blockly",
     "all1:11:blockly",
@@ -46,6 +46,7 @@
     "./core/renderers/geras/drawer.js",
     "./core/renderers/geras/constants.js",
     "./core/renderers/geras/geras.js",
+    "./core/actors_interface.js",
     "./core/theme/zelos.js",
     "./core/theme/themes.js",
     "./core/shortcut_items.js",

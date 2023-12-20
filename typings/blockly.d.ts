@@ -1297,6 +1297,9 @@ declare module "core/events/events_bubble_open" {
     import { UiBase } from "core/events/events_ui_base";
     import { BlockSvg } from "core/block_svg";
 }
+declare module "core/actors_interface" {
+    export function setActors(actors: any[]): void;
+}
 declare module "core/block_animations" {
     /**
      * Play some UI effects (sound, animation) when disposing of a block.
@@ -26098,6 +26101,7 @@ declare module "core/blockly" {
     import * as Xml from "core/xml";
     import { ZoomControls } from "core/zoom_controls";
     import * as blockAnimations from "core/block_animations";
+    import * as actorsInterface from "core/actors_interface";
     import * as blockRendering from "core/renderers/common/block_rendering";
     import * as browserEvents from "core/browser_events";
     import * as bumpObjects from "core/bump_objects";
