@@ -1298,8 +1298,8 @@ declare module "core/events/events_bubble_open" {
     import { BlockSvg } from "core/block_svg";
 }
 declare module "core/actors_interface" {
-    export function setActors(actors: any[]): void;
-    export function getActors(): any[];
+    export function setActors(actors: any[] | undefined): void;
+    export function getActors(): any[] | undefined;
 }
 declare module "core/block_animations" {
     /**
