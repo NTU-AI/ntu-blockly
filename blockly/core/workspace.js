@@ -15,6 +15,7 @@
  */
 goog.module('Blockly.Workspace');
 
+const actorsInterface = goog.require('Blockly.actorsInterface');
 const arrayUtils = goog.require('Blockly.utils.array');
 const eventUtils = goog.require('Blockly.Events.utils');
 const idGenerator = goog.require('Blockly.utils.idGenerator');
@@ -42,6 +43,8 @@ const {VariableModel} = goog.requireType('Blockly.VariableModel');
 const {WorkspaceComment} = goog.requireType('Blockly.WorkspaceComment');
 /** @suppress {extraRequire} */
 goog.require('Blockly.ConnectionChecker');
+
+console.log(actorsInterface)
 
 
 /**
