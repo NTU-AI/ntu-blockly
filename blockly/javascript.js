@@ -3,7 +3,7 @@
   if (typeof define === 'function' && define.amd) { // AMD
     define(['./core', './javascript_compressed.js'], factory);
   } else if (typeof exports === 'object') { // Node.js
-    module.exports = factory(require('./core'), require('./javascript_compressed.js'));
+    module.exports = factory(require('./core.js'), require('./javascript_compressed.js'));
   } else { // Browser
     root.BlocklyJavaScript = factory(root.Blockly, root.BlocklyJavaScript);
   }
