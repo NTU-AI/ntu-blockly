@@ -1299,6 +1299,7 @@ declare module "core/events/events_bubble_open" {
 }
 declare module "core/actors_interface" {
     export function setActors(actors: any[]): void;
+    export function getActors(): any[];
 }
 declare module "core/block_animations" {
     /**
