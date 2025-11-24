@@ -21,6 +21,9 @@ a few minutes and will help us better support the Blockly community.
 
 ```bash
 npm run package
+mv dist blockly
+cd blockly
+npm pack
 ```
 
 Comentário em [https://github.com/google/blockly/issues/6403](https://github.com/google/blockly/issues/6403)
